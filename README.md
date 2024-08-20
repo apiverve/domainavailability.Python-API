@@ -67,9 +67,13 @@ print(result)
   "status": "ok",
   "error": null,
   "data": {
-    "available": true,
-    "domain": "myspace.com"
-  }
+    "domain": "myspace.com",
+    "available": false,
+    "owner": {
+      "registrar": "GoDaddy.com, LLC"
+    }
+  },
+  "code": 200
 }
 ```
 
